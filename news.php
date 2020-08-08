@@ -6,6 +6,8 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
     $slug = $_GET['slug'];
     $time = $_GET['time'];
 
+    $request = htmlentities($_SERVER['REQUEST_URI']);
+
     $fullDateTime = strtotime($date.$time);
 
     $newformattedDate = date('Y-m-d H:i:s',$fullDateTime);
@@ -73,13 +75,11 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
                         <div class="top_date_social text-right">
                             <div class="social1">
                                 <ul class="inline">
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a>
+                                    <li><a href="https://twitter.com/DundaFootball"><i class="fab fa-instagram"></i></a>
                                     </li>
-                                    <li><a href="#"><i class="fab fa-facebook-f"></i></a>
+                                    <li><a href="https://facebook.com/dundafootball/"><i class="fab fa-facebook-f"></i></a>
                                     </li>
-                                    <li><a href="#"><i class="fab fa-youtube"></i></a>
-                                    </li>
-                                    <li><a href="#"><i class="fab fa-instagram"></i></a>
+                                    <li><a href="https://www.instagram.com/dundafootball/"><i class="fab fa-twitter"></i></a>
                                     </li>
                                 </ul>
                             </div>
@@ -168,14 +168,6 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
                                     <h4><?=$postDetails['category']?></h4>
                                 </div>
                             </div>
-                            <!--						<div class="col-8 text-right">-->
-                            <!--							<div class="page_comments">-->
-                            <!--								<ul class="inline">-->
-                            <!--									<li><i class="fas fa-comment"></i>563</li>-->
-                            <!--									<li><i class="fas fa-fire"></i>536</li>-->
-                            <!--								</ul>-->
-                            <!--							</div>-->
-                            <!--						</div>-->
                         </div>
                         <div class="space-30"></div>
                         <div class="single_post_heading">
@@ -192,25 +184,41 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
                                 <div class="author">
                                     <div class="author_img">
                                         <div class="author_img_wrap">
-                                            <img src="assets/img/author/author2.png" alt="">
+                                            <img src="assets/img/author/author2.png" alt="<?=$bloggerDetails['first_name'].' '.$bloggerDetails['last_name']?>" - Dunda Football>
                                         </div>
                                     </div>	<a href="#"><?=$bloggerDetails['first_name'].' '.$bloggerDetails['last_name']?></a>
                                     <ul>
                                         <li><a href="#"><?=$postsFunctions->generatePrettyDate($postDetails['post_date'])?></a>
                                         </li>
-                                        <!--                                    <li>Updated 1:58 p.m. ET</li>-->
+
                                     </ul>
                                 </div>
                             </div>
                             <div class="col-lg-6 align-self-center">
                                 <div class="author_social inline text-right">
                                     <ul>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a>
+                                        <li>
+                                            <a href="#" id="share-wa" class="sharer button" data-sharer="whatsapp" data-title="<?=$postDetails['post_title']?>" data-url="https://dundafootball.com<?=$request?>" data-web="Share on Whatsapp Web">
+                                                <i class="fab fa-whatsapp"></i>
+                                            </a>
                                         </li>
-                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a>
+                                        <li>
+                                            <a href="#" id="share-tw" class="sharer button" data-sharer="twitter" data-title="<?=$postDetails['post_title']?>" data-hashtags="dundafootball" data-url="https://dundafootball.com<?=$request?>">
+                                                <i class="fab fa-twitter"></i>
+                                            </a>
                                         </li>
-                                        <li><a href="#"><i class="fab fa-instagram"></i></a>
+                                        <li>
+                                            <a href="#" id="share-fb" class="sharer button" data-sharer="facebook" data-hashtag="dundafootball" data-url="https://dundafootball.com<?=$request?>">
+                                                <i class="fab fa-facebook-f"></i>
+                                            </a>
                                         </li>
+                                        <li>
+<!--                                            <a href="#" data-sharer="telegram" data-title="--><?//=$postDetails['post_title']?><!--" data-url="https://dundafootball.com--><?//=$request?><!--" data-to="+44555-5555">-->
+                                            <a href="#" data-sharer="telegram" data-title="<?=$postDetails['post_title']?>" data-url="https://dundafootball.com<?=$request?>">
+                                                <i class="fab fa-telegram"></i>
+                                            </a>
+                                        </li>
+
                                     </ul>
                                 </div>
                             </div>
@@ -280,14 +288,14 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
                         <div class="follow_box widget sociai_style3 mb30 white_bg padding20 white_bg border-radious5 inner_socail4">
                             <h2 class="widget-title">Contact Us</h2>
                             <div class="social_shares">
-                                <a class="single_social social_facebook" href="#">	<span class="follow_icon"><i class="fab fa-facebook-f"></i></span>
-                                    34,456 <span class="icon_text">Fans</span>
+                                <a class="single_social social_facebook" href="https://facebook.com/dundafootball/">	<span class="follow_icon"><i class="fab fa-facebook-f"></i></span>
+                                    1,377 <span class="icon_text">Fans</span>
                                 </a>
-                                <a class="single_social social_twitter" href="#">	<span class="follow_icon"><i class="fab fa-twitter"></i></span>
-                                    34,456 <span class="icon_text">Followers</span>
+                                <a class="single_social social_twitter" href="https://twitter.com/DundaFootball">	<span class="follow_icon"><i class="fab fa-twitter"></i></span>
+                                    200 <span class="icon_text">Followers</span>
                                 </a>
-                                <a class="single_social social_instagram" href="#">	<span class="follow_icon"><i class="fab fa-instagram"></i></span>
-                                    34,456 <span class="icon_text">Followers</span>
+                                <a class="single_social social_instagram" href="https://www.instagram.com/dundafootball/">	<span class="follow_icon"><i class="fab fa-instagram"></i></span>
+                                    108 <span class="icon_text">Followers</span>
                                 </a>
                             </div>
                         </div>

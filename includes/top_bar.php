@@ -24,13 +24,11 @@
                 <div class="top_date_social text-right">
                     <div class="social1">
                         <ul class="inline">
-                            <li><a href="#"><i class="fab fa-instagram"></i></a>
+                            <li><a href="https://twitter.com/DundaFootball"><i class="fab fa-instagram"></i></a>
                             </li>
-                            <li><a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <li><a href="https://facebook.com/dundafootball/"><i class="fab fa-facebook-f"></i></a>
                             </li>
-                            <li><a href="#"><i class="fab fa-youtube"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fab fa-instagram"></i></a>
+                            <li><a href="https://www.instagram.com/dundafootball/"><i class="fab fa-twitter"></i></a>
                             </li>
                         </ul>
                     </div>

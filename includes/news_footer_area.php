@@ -97,13 +97,13 @@
                         <div class="follow_box widget mb30">
                             <h2 class="widget-title">Follow Us</h2>
                             <div class="social_shares">
-                                <a class="single_social social_facebook" href="#">	<span class="follow_icon"><i class="fab fa-facebook-f"></i></span>
+                                <a class="single_social social_facebook" href="https://facebook.com/dundafootball/">	<span class="follow_icon"><i class="fab fa-facebook-f"></i></span>
                                     1,377 <span class="icon_text">Fans</span>
                                 </a>
-                                <a class="single_social social_twitter" href="#">	<span class="follow_icon"><i class="fab fa-twitter"></i></span>
+                                <a class="single_social social_twitter" href="https://twitter.com/DundaFootball">	<span class="follow_icon"><i class="fab fa-twitter"></i></span>
                                     200 <span class="icon_text">Followers</span>
                                 </a>
-                                <a class="single_social social_instagram" href="#">	<span class="follow_icon"><i class="fab fa-instagram"></i></span>
+                                <a class="single_social social_instagram" href="https://www.instagram.com/dundafootball/">	<span class="follow_icon"><i class="fab fa-instagram"></i></span>
                                     108 <span class="icon_text">Followers</span>
                                 </a>
                             </div>
