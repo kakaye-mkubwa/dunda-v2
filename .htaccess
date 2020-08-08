@@ -26,8 +26,6 @@ RewriteEngine on
 #RewriteRule category/(.*)/ category.php?category=$1
 RewriteRule category/(.*) category.php?category=$1
 
-#RewriteRule category/(.*)/(.*)/ category.php?category=$1&page=$2
-#RewriteRule category/(.*)/(.*) category.php?category=$1&page=$2
 
 #REWRITE RULE FOR HOME/INDEX PAGE
 

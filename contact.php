@@ -53,7 +53,7 @@ include_once 'includes/header.php';
 					<div class="col-lg-6">
 						<div class="title_inner">
 							<h6>CONTACT US</h6>
-							<h1>let's Contact</h1>
+							<h1>Talk to us</h1>
 						</div>
 					</div>
 				</div>
@@ -78,29 +78,24 @@ include_once 'includes/header.php';
 						<div class="cotact_form">
 							<div class="row">
 								<div class="col-12">
-									<h3>Get in touch with us! <br> Fill out the form.</h3>
+									<h3>Get in touch with us! <br></h3>
 								</div>
 								<div class="col-12">
-									<form action="home">
-										<div class="row">
-											<div class="col-lg-6">
-												<input type="text" placeholder="Full Name">
-											</div>
-											<div class="col-lg-6">
-												<input type="text" placeholder="Subject">
-											</div>
-											<div class="col-lg-6">
-												<input type="email" placeholder="Email Adress">
-											</div>
-											<div class="col-12">
-												<textarea name="messege" id="messege" cols="30" rows="5" placeholder="Tell us about your message…"></textarea>
-											</div>
-											<div class="col-12">
-												<div class="space-20"></div>
-												<input class="cbtn1" type="button" value="Send Message">
-											</div>
-										</div>
-									</form>
+                                    <div class="col-lg-6">
+                                        <a href="https://www.instagram.com/dundafootball/">Instagram</a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <a href="https://facebook.com/dundafootball/">Facebook</a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <a href="https://twitter.com/DundaFootball">Twitter</a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <a href="https://t.me/DundahFootball">Telegram</a>
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <p> Contact Email : <a href="mailto:support@dundafootball.com">support@dundafootball.com</a> </p>
+                                    </div>
 								</div>
 							</div>
 						</div>
@@ -109,15 +104,15 @@ include_once 'includes/header.php';
 						<div class="follow_box widget mb30">
 							<h2 class="widget-title">Follow Us</h2>
 							<div class="social_shares">
-								<a class="single_social social_facebook" href="#">	<span class="follow_icon"><i class="fab fa-facebook-f"></i></span>
-									34,456 <span class="icon_text">Fans</span>
-								</a>
-								<a class="single_social social_twitter" href="#">	<span class="follow_icon"><i class="fab fa-twitter"></i></span>
-									34,456 <span class="icon_text">Followers</span>
-								</a>
-								<a class="single_social social_instagram" href="#">	<span class="follow_icon"><i class="fab fa-instagram"></i></span>
-									34,456 <span class="icon_text">Followers</span>
-								</a>
+                                <a class="single_social social_facebook" href="https://facebook.com/dundafootball/">	<span class="follow_icon"><i class="fab fa-facebook-f"></i></span>
+                                    1,377 <span class="icon_text">Fans</span>
+                                </a>
+                                <a class="single_social social_twitter" href="https://twitter.com/DundaFootball">	<span class="follow_icon"><i class="fab fa-twitter"></i></span>
+                                    200 <span class="icon_text">Followers</span>
+                                </a>
+                                <a class="single_social social_instagram" href="https://www.instagram.com/dundafootball/">	<span class="follow_icon"><i class="fab fa-instagram"></i></span>
+                                    108 <span class="icon_text">Followers</span>
+                                </a>
 							</div>
 						</div>
 					</div>
@@ -134,6 +129,7 @@ include_once 'includes/header.php';
 
 	<!--::::: ALL JS FILES :::::::-->
     <?php include_once 'includes/scripts.php'?>
+
 </body>
 
 </html>
