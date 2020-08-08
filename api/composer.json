@@ -1,0 +1,29 @@
+{
+    "name": "m3n/api",
+    "description": "Dunda apis",
+    "type": "project",
+    "license": "Dunda",
+    "authors": [
+        {
+            "name": "kakaye",
+            "email": "iankay777@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "monolog/monolog": "^2.0@dev",
+        "fzaninotto/faker": "^1.9@dev",
+        "ext-mysqli": "*",
+        "ext-json": "*",
+        "defuse/php-encryption": "^2.2",
+        "cocur/slugify": "^4.0",
+        "pagerfanta/pagerfanta": "^2.3",
+        "hidehalo/nanoid-php": "^1.1",
+      "ext-openssl": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "FootballBlog\\": "src"
+        }
+    }
+}

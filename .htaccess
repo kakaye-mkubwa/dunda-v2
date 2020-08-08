@@ -1,0 +1,53 @@
+#tell apache to send the right content-type header for .css file
+AddType text/css .css
+
+#REWRITE RULE FOR TESTING
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule test/(.*)/(.*)/(.*)/ test.php?date=$1&time=$2&slug=$3
+RewriteRule test/(.*)/(.*)/(.*) test.php?date=$1&time=$2&slug=$3
+
+#REWRITE RULE FOR NEWS
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule news/(.*)/(.*)/(.*)/ news.php?date=$1&time=$2&slug=$3
+RewriteRule news/(.*)/(.*)/(.*) news.php?date=$1&time=$2&slug=$3
+
+#REWRITE RULE FOR TAGS
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule tag/(.*)/ tag.php?tag=$1
+RewriteRule tag/(.*) tag.php?tag=$1
+
+
+#REWRITE RULE FOR CATEGORIES
+Options +FollowSymLinks
+RewriteEngine on
+#RewriteRule category/(.*)/ category.php?category=$1
+RewriteRule category/(.*) category.php?category=$1
+
+#RewriteRule category/(.*)/(.*)/ category.php?category=$1&page=$2
+#RewriteRule category/(.*)/(.*) category.php?category=$1&page=$2
+
+#REWRITE RULE FOR HOME/INDEX PAGE
+
+RewriteRule home/ index.php
+RewriteRule home index.php
+
+#REWRITE RULE FOR ABOUT PAGE
+RewriteRule about/ about.php
+RewriteRule about about.php
+
+#REWRITE RULE FOR HOME/INDEX PAGE
+RewriteRule contact/ contact.php
+RewriteRule contact contact.php
+
+#REWRITE RULE FOR PRIVACY POLICY PAGE
+RewriteRule privacy_policy/ privacy_policy.php
+RewriteRule privacy_policy privacy_policy.php
+
+#REWRITE RULE FOR 404 PAGE
+Options +FollowSymLinks
+RewriteEngine on
+RewriteRule page-not-found/ 404.php
+RewriteRule page-not-found 404.php
