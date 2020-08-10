@@ -6,7 +6,7 @@ include_once 'includes/header.php';
 <html lang="en">
 
 <head>
-	<title>NewsPrk 3</title>
+	<title>Home - Dunda Football</title>
 	<!-- META -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">

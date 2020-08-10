@@ -23,7 +23,7 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
         <html lang="en">
 
         <head>
-            <title>Post 1</title>
+            <title><?=$postDetails['post_title']?> - Dunda Football</title>
             <!-- META -->
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
