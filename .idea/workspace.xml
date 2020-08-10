@@ -2,9 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a34922d3-c3eb-44bd-b365-044fb4a0e174" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/contact.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Processors/BloggersFunctions.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Processors/BloggersFunctions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/archive.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ascii_test.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio_post1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio_post2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/audio_post3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/entertainment.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/feature.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index5.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/left_post.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/post3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sports.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_post1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_post2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/video_post3.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,12 +70,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../newsprk-html" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/qrt43/ajax" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/qrt43/ajax" />
       <recent name="$PROJECT_DIR$/qrt43" />
+      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -90,7 +110,7 @@
       <workItem from="1596347621736" duration="60387000" />
       <workItem from="1596647463950" duration="11929000" />
       <workItem from="1596775645681" duration="22971000" />
-      <workItem from="1596870588866" duration="5841000" />
+      <workItem from="1596870588866" duration="13477000" />
     </task>
     <servers />
   </component>
@@ -102,6 +122,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="78" y="27" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1366.741@0.27.1366.741" timestamp="1594514982794" />
+    <state x="416" y="146" width="524" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1597050009054">
+      <screen x="0" y="27" width="1366" height="741" />
+    </state>
+    <state x="416" y="146" width="524" height="501" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.27.1366.741@0.27.1366.741" timestamp="1597050009054" />
     <state x="416" y="155" width="524" height="482" key="#com.jetbrains.php.actions.copyPaste.importReferences.PhpImportReferencesDialog" timestamp="1596522326598">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
@@ -122,10 +146,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="281" y="196" key="com.intellij.ide.util.TipDialog/0.27.1366.741@0.27.1366.741" timestamp="1596775745904" />
-    <state x="269" y="75" width="703" height="586" key="find.popup" timestamp="1596872483868">
+    <state x="269" y="75" width="703" height="586" key="find.popup" timestamp="1597049843702">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="269" y="75" width="703" height="586" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1596872483868" />
+    <state x="269" y="75" width="703" height="586" key="find.popup/0.27.1366.741@0.27.1366.741" timestamp="1597049843702" />
     <state x="347" y="176" key="run.anything.popup" timestamp="1596848128517">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

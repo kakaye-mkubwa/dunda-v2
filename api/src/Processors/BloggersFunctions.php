@@ -906,9 +906,8 @@ class BloggersFunctions{
             if (mysqli_stmt_execute($stmt)){
                 mysqli_stmt_bind_result($stmt,$fetchedFirstName,$fetchedLastName,$fetchedEmail,$fetchedImageUrl,$fetchedDescription);
                 while(mysqli_stmt_fetch($stmt)){
-//                    $imageURL = "https://top10betz.com".substr($fetchedImageUrl,26);
-//                    $imageURL = "../".substr($fetchedImageUrl,51);
                     $imageURL = $fetchedImageUrl;
+//                    $imageURL = '/'.$fetchedImageUrl;
 
                     $data[] = array("first_name"=>$fetchedFirstName,"last_name"=>$fetchedLastName,"email"=>$fetchedEmail,"description"=>$fetchedDescription,"image_url"=>$imageURL);
                 }

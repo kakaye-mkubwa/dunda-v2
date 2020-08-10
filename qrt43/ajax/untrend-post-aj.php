@@ -1,5 +1,5 @@
 <?php
-include_once '../../Api/vendor/autoload.php';
+include_once '../../api/vendor/autoload.php';
 
 use FootballBlog\Processors\PostsFunctions;
 use FootballBlog\Models\DataHandler;
@@ -11,10 +11,20 @@ if ($_SERVER["REQUEST_METHOD"] == "POST"){
     $postID = $dataHandler->sanitizeData($_POST['id']);
 
     $output = json_decode($postsFunctions->untrendPosts($postID),true);
-    if ($output['error'] == 'false'){
-        ?>Success<script>location.reload();</script><?php
+
+    if ($output["error"] == "false"){
+        ?>
+        <hr><div class="alert alert-success"><p align="center"><strong>
+                    <i class="fa info"></i> Success!</strong>
+            </p></div>
+        <script>location.reload();</script>
+        <?php
     }else{
-        ?>Failed untrending post<?php
+        ?>
+        <hr><div class="alert alert-danger"><p align="center"><strong>
+                    <i class="fa fa-exclamation-triangle"></i> Error Processing Request!</strong>
+                <?php echo "Failed untrending post";?></p></div>
+        <?php
     }
 
 }
