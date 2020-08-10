@@ -58,7 +58,6 @@
                     <div class="single_contact3">
                         <h6>Let's Chat</h6>
                         <a href="mailto:support@dundafootball.com">support@dundafootball.com</a>
-<!--                        <a href="mailto:adsales@newspark.com">adsales@newspark.com</a>-->
                     </div>
 
                 </div>

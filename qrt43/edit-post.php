@@ -42,7 +42,7 @@ if (isset($_SESSION['id'])){
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Editors | Bootstrap Based Admin Template - Material Design</title>
+    <title>Edit Post - Dunda Football</title>
     <!-- Favicon-->
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
 

@@ -51,7 +51,6 @@ include_once 'includes/header.php';
 				<div class="col-12">
 					<div class="space-50"></div>
 					<div class="area404 text-center">
-<!--						<img src="assets/img/bg/404.png" alt="Page not found - Dunda Football">-->
                         <h1 class="display-4">404</h1>
 					</div>
 					<div class="space-30"></div>
@@ -270,21 +269,6 @@ include_once 'includes/header.php';
 		</div>
 	</div>
 	<!--::::: ARCHIVE AREA END :::::::-->
-	<!--::::: BANNER AREA START :::::::-->
-<!--	<div class="padding5050 fourth_bg layout3">-->
-<!--		<div class="container">-->
-<!--			<div class="row">-->
-<!--				<div class="col-lg-8 m-auto">-->
-<!--					<div class="banner1">-->
-<!--						<a href="#">-->
-<!--							<img src="assets/img/bg/banner1.png" alt="">-->
-<!--						</a>-->
-<!--					</div>-->
-<!--				</div>-->
-<!--			</div>-->
-<!--		</div>-->
-<!--	</div>-->
-	<!--::::: BANNER AREA END :::::::-->
 
 	<!--::::: FOOTER AREA START :::::::-->
 	<?php include_once 'includes/footer_area.php'?>

@@ -23,19 +23,3 @@ $outputCategories = json_decode($postsFunctions->fetchCategories(),true);
 $recentPostsOutput30Days = json_decode($postsFunctions->fetch30DayRecentPublishedPostsMain(),true);
 $trendingPosts = json_decode($postsFunctions->fetchTrendingPostsMain(),true);
 $popularTags = json_decode($postsFunctions->fetchPopularTags(),true);
-
-
-//
-//$postsCount = json_decode($postsFunctions->countPublishedPosts(),true);
-//$limit = 10;
-//$totalPages = ceil($postsCount["message"]/$limit);
-//
-//if(isset($_GET["page"])){
-//    $currentPage = $_GET["page"];
-//}else{
-//    $currentPage = 0;
-//}
-//
-//$startFrom = $currentPage * 10;
-//$endAt = $startFrom + 9;
-//

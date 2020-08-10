@@ -1,9 +1,6 @@
 <?php
 include_once 'includes/header.php';
 
-use Pagerfanta\Adapter\ArrayAdapter;
-use Pagerfanta\Pagerfanta;
-
 if (isset($_GET['category'])) {
     $categoryName = $_GET['category'];
 
@@ -363,13 +360,11 @@ if (isset($_GET['category'])) {
 
         ?>
         <script>window.location.href = '../page-not-found';</script>
-<!--        <script>window.location.href = 'https://dundafootball.com/page-not-found';</script>-->
         <?php
     }
 }else{
     ?>
     <script>window.location.href = '../page-not-found';</script>
-<!--    <script>window.location.href = 'https://dundafootball.com/page-not-found';</script>-->
     <?php
 }
 ?>

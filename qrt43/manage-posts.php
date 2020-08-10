@@ -55,7 +55,7 @@ if (isset($_SESSION['id'])){
 <head>
     <meta charset="UTF-8">
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <title>Profile | Bootstrap Based Admin Template - Material Design</title>
+    <title>Profile | Dunda Football</title>
     <!-- Favicon-->
     <link rel="icon" href="../../favicon.ico" type="image/x-icon">
 
@@ -180,6 +180,7 @@ if (isset($_SESSION['id'])){
                                     <div role="tabpanel" class="tab-pane fade in active" id="home">
                                         <?php
                                         foreach ($bloggerPosts as $post){
+                                            $url = $postsFunctions->newsUrlGenerator($post['post_date'],$post['url_slug']);
                                             ?>
                                             <div class="panel panel-default panel-post">
                                                 <div class="panel-heading">
@@ -201,12 +202,11 @@ if (isset($_SESSION['id'])){
                                                 <div class="panel-body">
                                                     <div class="post">
                                                         <div class="post-heading">
-                                                            <a href="">
+                                                            <a href="<?='../'.$url?>">
                                                                 <p><?=$post['post_title']?></p>
                                                             </a>
                                                         </div>
                                                         <div class="post-content">
-<!--                                                            <img src="images/profile-post-image.jpg" class="img-responsive" />-->
                                                             <img src="<?=$post['image_url']?>" class="img-responsive" />
                                                         </div>
                                                     </div>

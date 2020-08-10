@@ -156,7 +156,7 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
             <div class="container">
                 <div class="row">
                     <div class="col-12">
-                        <div class="bridcrumb">	<a href="#">Home</a> / News/ <?=$postDetails['post_title']?></div>
+                        <div class="bridcrumb">	<a href="../../../home">Home</a> / News/ <?=$postDetails['post_title']?></div>
                     </div>
                 </div>
                 <div class="space-30"></div>
