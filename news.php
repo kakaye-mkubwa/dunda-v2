@@ -27,6 +27,24 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
             <!-- META -->
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+            <!-- Facebook   -->
+            <meta property="og:site_name" content="Dunda Football">
+            <meta property="og:title" content="<?=$postDetails['post_title']?>" />
+            <meta property="og:description" content="<?=$postDetails['post_desc']?>" />
+            <meta property="og:image" itemprop="image" content="<?=$postDetails['image_url']?>">
+            <meta property="og:image:width" content="150px">
+            <meta property="og:image:height" content="150px">
+            <meta property="og:type" content="article" />
+
+            <!-- Twitter -->
+            <meta property="twitter:card" content="summary_large_image">
+            <meta property="twitter:url" content="https://dundafootball.com<?=$request?>">
+            <meta property="twitter:title" content="<?=$postDetails['post_title']?>">
+            <meta property="twitter:description" content="<?=$postDetails['post_desc']?>">
+            <meta property="twitter:image" content="<?=$postDetails['image_url']?>">
+
             <!--::::: FABICON ICON :::::::-->
             <link rel="icon" href="assets/img/icon/fabicon.png">
             <!--::::: ALL CSS FILES :::::::-->

@@ -1,5 +1,6 @@
 <?php
 include_once 'includes/header.php';
+$request = htmlentities($_SERVER['REQUEST_URI']);
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -9,6 +10,24 @@ include_once 'includes/header.php';
 	<!-- META -->
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+    <!-- Facebook   -->
+    <meta property="og:site_name" content="Dunda Football">
+    <meta property="og:title" content="Privacy Policy | Dunda Football" />
+    <meta property="og:description" content="Privacy Policy | Dunda Football" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" itemprop="image" content="assets/img/logo/dunda_logo.png">
+    <meta property="og:image:width" content="150px">
+    <meta property="og:image:height" content="150px">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://dundafootball.com<?=$request?>">
+    <meta property="twitter:title" content="Privacy Policy | Dunda Football">
+    <meta property="twitter:description" content="Dunda Football's privacy policy.">
+    <meta property="twitter:image" content="assets/img/logo/dunda_logo.png">
+
 	<!--::::: FABICON ICON :::::::-->
 	<link rel="icon" href="assets/img/icon/fabicon.png">
 	<!--::::: ALL CSS FILES :::::::-->

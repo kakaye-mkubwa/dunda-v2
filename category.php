@@ -25,6 +25,23 @@ if (isset($_GET['category'])) {
             <!-- META -->
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+            <!-- Facebook   -->
+            <meta property="og:site_name" content="Dunda Football">
+            <meta property="og:title" content="<?=$categoryName?> | Dunda Football" />
+            <meta property="og:description" content="<?='Stay up to date with '.$categoryName.' news'?>" />
+            <meta property="og:type" content="article" />
+            <meta property="og:image" itemprop="image" content="../assets/img/logo/dunda_logo.png">
+            <meta property="og:image:width" content="150px">
+            <meta property="og:image:height" content="150px">
+
+            <!-- Twitter -->
+            <meta property="twitter:card" content="summary_large_image">
+            <meta property="twitter:url" content="https://dundafootball.com<?=$request?>">
+            <meta property="twitter:title" content="<?=$categoryName?> | Dunda Football">
+            <meta property="twitter:description" content="<?='Stay up to date with '.$categoryName.' news'?>">
+            <meta property="twitter:image" content="../assets/img/logo/dunda_logo.png">
+
             <!--::::: FABICON ICON :::::::-->
             <link rel="icon" href="assets/img/icon/fabicon.png">
             <!--::::: ALL CSS FILES :::::::-->
