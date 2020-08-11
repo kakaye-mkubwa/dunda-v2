@@ -5,7 +5,7 @@
                 <div class="single_footer3 mb30">
                     <div class="logo">
                         <a href="../home">
-                            <img src="../assets/img/logo/logo.png" alt="logo">
+                            <img src="../assets/img/logo/dunda400x150.png" alt="logo">
                         </a>
                         <div class="space-20"></div>
                         <p><span>Dunda Football</span> , sharing facts and news about the game. All for the love of the game</p>

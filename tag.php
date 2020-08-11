@@ -121,7 +121,7 @@ if (isset($_GET['tag'])){
                     <div class="col-lg-3 align-self-center">
                         <div class="logo">
                             <a href="../home">
-                                <img src="../assets/img/logo/dunda_logo.png" alt="Dunda Football">
+                                <img src="../assets/img/logo/dunda400x150.png" alt="Dunda Football">
                             </a>
                         </div>
                     </div>

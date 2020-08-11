@@ -119,7 +119,7 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
                     <div class="col-lg-3 align-self-center">
                         <div class="logo">
                             <a href="../../../home">
-                                <img src="../../../assets/img/logo/dunda_logo.png" alt="Dunda Football">
+                                <img src="../../../assets/img/logo/dunda400x150.png" alt="Dunda Football">
                             </a>
                         </div>
                     </div>
@@ -202,7 +202,7 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
                                 <div class="author">
                                     <div class="author_img">
                                         <div class="author_img_wrap">
-                                            <img src="assets/img/author/author2.png" alt="<?=$bloggerDetails['first_name'].' '.$bloggerDetails['last_name']?>" - Dunda Football>
+                                            <img src="<?='../../../'.$bloggerDetails['image_url']?>" alt="<?=$bloggerDetails['first_name'].' '.$bloggerDetails['last_name']?>" - Dunda Football>
                                         </div>
                                     </div>	<a href="#"><?=$bloggerDetails['first_name'].' '.$bloggerDetails['last_name']?></a>
                                     <ul>
