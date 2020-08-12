@@ -2,15 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a34922d3-c3eb-44bd-b365-044fb4a0e174" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/assets/img/logo/dunda400x150.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/edit_image.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/src/Processors/PostsFunctions.php" beforeDir="false" afterPath="$PROJECT_DIR$/api/src/Processors/PostsFunctions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/img/icon/fabicon.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/img/icon/fabicon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/category.php" beforeDir="false" afterPath="$PROJECT_DIR$/category.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/footer_area.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/footer_area.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generate_slug.php" beforeDir="false" afterPath="$PROJECT_DIR$/generate_slug.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/header.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/includes/logo_area.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/logo_area.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/news_footer_area.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/news_footer_area.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/includes/tag_footer_area.php" beforeDir="false" afterPath="$PROJECT_DIR$/includes/tag_footer_area.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/news.php" beforeDir="false" afterPath="$PROJECT_DIR$/news.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/runtime/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/runtime/logs/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tag.php" beforeDir="false" afterPath="$PROJECT_DIR$/tag.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +61,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/logo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/img/icon" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -66,6 +69,7 @@
       <recent name="$PROJECT_DIR$/qrt43" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets/img/icon" />
       <recent name="$PROJECT_DIR$/assets/img/logo" />
       <recent name="$PROJECT_DIR$/qrt43/ajax" />
       <recent name="$PROJECT_DIR$/qrt43" />
@@ -100,7 +104,7 @@
       <workItem from="1596647463950" duration="11929000" />
       <workItem from="1596775645681" duration="22971000" />
       <workItem from="1596870588866" duration="20998000" />
-      <workItem from="1597132702627" duration="2228000" />
+      <workItem from="1597132702627" duration="11635000" />
     </task>
     <servers />
   </component>
@@ -128,10 +132,10 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="155" width="424" height="482" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1596787494182" />
-    <state x="417" y="293" width="377" height="151" key="NewPhpFileDialog" timestamp="1596873715110">
+    <state x="417" y="293" width="377" height="151" key="NewPhpFileDialog" timestamp="1597142033626">
       <screen x="0" y="27" width="1366" height="741" />
     </state>
-    <state x="417" y="293" width="377" height="151" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1596873715110" />
+    <state x="417" y="293" width="377" height="151" key="NewPhpFileDialog/0.27.1366.741@0.27.1366.741" timestamp="1597142033626" />
     <state x="281" y="196" key="com.intellij.ide.util.TipDialog" timestamp="1596775745904">
       <screen x="0" y="27" width="1366" height="741" />
     </state>

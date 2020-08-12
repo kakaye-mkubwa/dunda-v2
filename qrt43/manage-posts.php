@@ -29,6 +29,7 @@ if (isset($_SESSION['id'])){
 
         $outputCategories = json_decode($postsFunctions->fetchCategories(),true);
         $bloggerPosts = json_decode($postsFunctions->fetchPostsByBloggerAdmin($sessionID),true)['data'];
+        $bloggerPostsFullArr = json_decode($postsFunctions->fetchPostsByBloggerAdmin($sessionID),true);
 
         $bloggerDetails = json_decode($bloggerFunctions->fetchBloggerDetailsAdmin($sessionID),true)['data'][0];
         $numBloggerTotalPosts = $postsFunctions->countTotalBloggerPosts($sessionID);
@@ -36,15 +37,20 @@ if (isset($_SESSION['id'])){
         /**
          * pagination
          */
-        $adapter = new ArrayAdapter($bloggerPosts);
-        $pagerfanta = new Pagerfanta($adapter);
 
-        //set current page
-        $pagerfanta->setCurrentPage($currentPage);
-        $pagerfanta->getCurrentPage();
+        if ($bloggerPosts != null){
+            $adapter = new ArrayAdapter($bloggerPosts);
+            $pagerfanta = new Pagerfanta($adapter);
 
-        // By default, this will return up to 10 items for the first page of results
-        $currentPageResults = $pagerfanta->getCurrentPageResults();
+            //set current page
+            $pagerfanta->setCurrentPage($currentPage);
+            $pagerfanta->getCurrentPage();
+
+            // By default, this will return up to 10 items for the first page of results
+            $currentPageResults = $pagerfanta->getCurrentPageResults();
+        }else{
+            $currentPageResults = null;
+        }
 
     }
 
@@ -179,7 +185,8 @@ if (isset($_SESSION['id'])){
                                 <div class="tab-content">
                                     <div role="tabpanel" class="tab-pane fade in active" id="home">
                                         <?php
-                                        foreach ($bloggerPosts as $post){
+                                        foreach ($currentPageResults as $post){
+//                                        foreach ($bloggerPosts as $post){
                                             $url = $postsFunctions->newsUrlGenerator($post['post_date'],$post['url_slug']);
                                             ?>
                                             <div class="panel panel-default panel-post">

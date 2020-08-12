@@ -10,12 +10,9 @@ use FootballBlog\Processors\BloggersFunctions;
 use FootballBlog\Processors\EncryptHandler;
 use FootballBlog\Processors\PostsFunctions;
 
-
 $postsFunctions = new PostsFunctions();
 $encryptFunctions = new EncryptHandler();
 $bloggerFunctions = new BloggersFunctions();
-
-
 
 $postsOutput = json_decode($postsFunctions->fetchAllPublishedPostsMain(),true);
 $outputCategories = json_decode($postsFunctions->fetchCategories(),true);

@@ -114,7 +114,7 @@
                             ?>
                             <div class="banner2 mb30 ">
                                 <a href="<?=$url?>" class="border-radious5">
-                                    <img src="<?=$row['image_url']?>" alt="<?=$row['post_desc']?>">
+                                    <img src="<?='../../../'.$row['image_url']?>" alt="<?=$row['post_desc']?>">
                                 </a>
                             </div>
                             <?php

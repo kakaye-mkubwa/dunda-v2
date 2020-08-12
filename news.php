@@ -33,7 +33,7 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
             <meta property="og:site_name" content="Dunda Football">
             <meta property="og:title" content="<?=$postDetails['post_title']?>" />
             <meta property="og:description" content="<?=$postDetails['post_desc']?>" />
-            <meta property="og:image" itemprop="image" content="<?=$postDetails['image_url']?>">
+            <meta property="og:image" itemprop="image" content="<?='../../../'.$postDetails['image_url']?>">
             <meta property="og:image:width" content="150px">
             <meta property="og:image:height" content="150px">
             <meta property="og:type" content="article" />
@@ -43,7 +43,7 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
             <meta property="twitter:url" content="https://dundafootball.com<?=$request?>">
             <meta property="twitter:title" content="<?=$postDetails['post_title']?>">
             <meta property="twitter:description" content="<?=$postDetails['post_desc']?>">
-            <meta property="twitter:image" content="<?=$postDetails['image_url']?>">
+            <meta property="twitter:image" content="<?='../../../'.$postDetails['image_url']?>">
 
             <!--::::: FABICON ICON :::::::-->
             <link rel="icon" href="assets/img/icon/fabicon.png">
@@ -194,7 +194,7 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
                             <!--                        <p>The property, complete with 30-seat screening from room, a 100-seat amphitheater and a swimming pond with sandy shower…</p>-->
                         </div>
                         <div class="space-40"></div>
-                        <img class="border-radious5" src="<?=$postDetails['image_url']?>" alt="image">
+                        <img class="border-radious5" src="<?='../../../'.$postDetails['image_url']?>" alt="image">
                         <!--                    <img class="border-radious5" src="assets/img/blog/single_post1.jpg" alt="image">-->
                         <div class="space-20"></div>
                         <div class="row">
@@ -327,7 +327,7 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
                                 <div class="single_post post_type3 post_type15 mb10">
                                     <div class="post_img border-radious5">
                                         <div class="img_wrap">
-                                            <img src="<?=$row['image_url']?>" alt="<?=$row['post_desc']?>">
+                                            <img src="<?='../../../'.$row['image_url']?>" alt="<?=$row['post_desc']?>">
                                         </div>
                                         <span class="tranding border_tranding">
 									    <i class="fas fa-bolt"></i>
@@ -355,7 +355,7 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
                                 <div class="single_post type10 type16 widgets_small mb15">
                                     <div class="post_img">
                                         <a href="<?='../../../'.$url?>">
-                                            <img src="<?=$row['image_url']?>" alt="<?=$row['post_desc']?>">
+                                            <img src="<?='../../../'.$row['image_url']?>" alt="<?=$row['post_desc']?>">
                                         </a>
                                     </div>
                                     <div class="single_post_text">
@@ -393,7 +393,7 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
                                         <div class="single_post type10 type16 widgets_small mb15">
                                             <div class="post_img">
                                                 <a href="<?='../../../'.$url?>">
-                                                    <img src="<?=$row[$i]['image_url']?>" alt="<?=$row[$i]['post_desc']?>">
+                                                    <img src="<?='../../../'.$row[$i]['image_url']?>" alt="<?=$row[$i]['post_desc']?>">
                                                 </a>
                                             </div>
                                             <div class="single_post_text">
@@ -418,7 +418,7 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
                                         <div class="single_post type10 type16 widgets_small mb15">
                                             <div class="post_img">
                                                 <a href="<?='../../../'.$url?>">
-                                                    <img src="<?=$row[$i]['image_url']?>" alt="<?=$row[$i]['post_desc']?>">
+                                                    <img src="<?='../../../'.$row[$i]['image_url']?>" alt="<?=$row[$i]['post_desc']?>">
                                                 </a>
                                             </div>
                                             <div class="single_post_text">
@@ -464,7 +464,7 @@ if (isset($_GET['date']) && isset($_GET['time']) && isset($_GET['slug'])){
                             <div class="single_post post_type3 mb30 post_type15 border-radious5">
                                 <div class="post_img border-radious5">
                                     <div class="img_wrap">
-                                        <img src="<?=$row['image_url']?>" alt="<?=$row['post_desc']?>">
+                                        <img src="<?='../../../'.$row['image_url']?>" alt="<?=$row['post_desc']?>">
                                     </div>
                                     <span class="tranding border_tranding">
 								<i class="fas fa-bolt"></i>

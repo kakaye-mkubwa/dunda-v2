@@ -1358,4 +1358,34 @@ class PostsFunctions{
         }
         return $outputArray;
     }
+
+    public function updateImageURL($url,$postID){
+        $dbConnect = new DBConnect();
+        $conn = $dbConnect->dbConnection();
+
+        $url = $this->dataHandle->sanitizeData($url);
+        $postID = $this->dataHandle->sanitizeData($postID);
+
+        $query = "UPDATE blog_posts SET postImage = ? WHERE postID = ?";
+
+        if ($stmt = mysqli_prepare($conn,$query)){
+            mysqli_stmt_bind_param($stmt,'si',$paramImageUrl,$paramPostID);
+            $paramPostID = $postID;
+            $paramImageUrl = $url;
+
+            if (mysqli_stmt_execute($stmt)){
+//                $this->log->info("Updated url slug for $postID");
+                $output = array("error"=>"false","message"=>"Success updating image URL");
+            }else{
+                $this->log->error("Failed updating image url ".mysqli_stmt_error($stmt).' '.mysqli_error($conn));
+                $output = array("error"=>"true","message"=>"Failed inserting slug");
+            }
+            mysqli_stmt_close($stmt);
+        }else{
+            $this->log->error("Prepare failed ".mysqli_error($conn));
+            $output=array("error"=>"true","message"=>"Something went wrong");
+        }
+        mysqli_close($conn);
+        return json_encode($output);
+    }
 }

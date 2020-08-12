@@ -196,7 +196,7 @@ if (isset($_GET['category'])) {
                                         <div class="single_post post_type3 xs-mb90 post_type15">
                                             <div class="post_img border-radious5">
                                                 <a href="<?='../'.$url?>">
-                                                    <img src="<?=$row['image_url']?>" alt="<?=$row['post_desc']?>">
+                                                    <img src="<?='../'.$row['image_url']?>" alt="<?=$row['post_desc']?>">
                                                 </a>
                                                 <span class="tranding border_tranding">
 									            <i class="fas fa-bolt"></i>
@@ -246,7 +246,7 @@ if (isset($_GET['category'])) {
                                 <div class="single_post post_type3 mb30 xs-mb90 post_type15">
                                     <div class="post_img border-radious5">
                                         <a href="<?='../'.$url?>">
-                                            <img src="<?=$row['image_url']?>" alt="<?=$row['post_desc']?>">
+                                            <img src="<?='../'.$row['image_url']?>" alt="<?=$row['post_desc']?>">
                                         </a>
                                         <span class="tranding border_tranding">
 										    <i class="fas fa-bolt"></i>
@@ -272,7 +272,7 @@ if (isset($_GET['category'])) {
                                 $url = $postsFunctions->newsUrlGenerator($row['post_date'],$row['url_slug']);
                                 ?>
                                 <a href="<?='../'.$url?>">
-                                    <img class="border-radious5" src="<?=$row['image_url']?>" alt="<?=$row['post_desc']?>">
+                                    <img class="border-radious5" src="<?='../'.$row['image_url']?>" alt="<?=$row['post_desc']?>">
                                 </a>
                                 <?php
                                 break;
@@ -294,7 +294,7 @@ if (isset($_GET['category'])) {
                                         <div class="single_post type10 type16 widgets_small mb15">
                                             <div class="post_img">
                                                 <a href="<?='../'.$url?>">
-                                                    <img src="<?=$row[$i]['image_url']?>" alt="<?=$row[$i]['post_desc']?>">
+                                                    <img src="<?='../'.$row[$i]['image_url']?>" alt="<?=$row[$i]['post_desc']?>">
                                                 </a>
                                             </div>
                                             <div class="single_post_text">
@@ -318,7 +318,7 @@ if (isset($_GET['category'])) {
                                         <div class="single_post type10 type16 widgets_small mb15">
                                             <div class="post_img">
                                                 <a href="<?='../'.$url?>">
-                                                    <img src="<?=$row[$i]['image_url']?>" alt="<?=$row[$i]['post_desc']?>">
+                                                    <img src="<?='../'.$row[$i]['image_url']?>" alt="<?=$row[$i]['post_desc']?>">
                                                 </a>
                                             </div>
                                             <div class="single_post_text">
